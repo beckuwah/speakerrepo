@@ -486,7 +486,7 @@ a:hover{
     }
     .nav-heading1{
         width: 100%;
-        top: 30px;
+        top: 50px;
     }
     .heading1{
         font-size: 50px;
@@ -517,7 +517,7 @@ a:hover{
     }
     .row.nav-bottom{
         margin-left: 30%;
-        padding-top: 50px;
+        padding-top: 70px;
         text-align: center;
     }
     .banner-list{
@@ -628,7 +628,7 @@ a:hover{
     }
     .off-sect{
         width: 100%;
-        height: 80%;
+        height: 50%;
     }
     .off-sect::before{
         width: 100%;
@@ -649,14 +649,14 @@ a:hover{
         height: 40px;
     }
     .off-sect-2{
-        height: 90%;
+        height: 50%;
         padding-top: 100px;
         padding-left: 100px;
         padding-right: 100px;
     }
     .expr-sect{
         width: 100%;
-        height: 180%;
+        height: 100%;
         padding-top: 100px;
     }
    
@@ -882,7 +882,6 @@ a:hover{
         height: 130%;
         padding-top: 100px;
     }
-   
     .expr-headertext p{
         padding-left: 150px;
         padding-right: 150px;
