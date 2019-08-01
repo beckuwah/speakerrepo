@@ -460,19 +460,16 @@ a:hover{
     .banner::before{
         width: 100%;
         height: 100%;
-    
     }
     .banner:after{
-        background: rgba(25,34,56,0.3);
         width: 100%;
         height: 100%;
     }
     .banner-top{
-        position: relative;
         font-size: 12px;
-        height: 2rem;
+        height: 3rem;
         width: 100%;
-        background-color: rgba(0, 0, 0, 0.9)!important;
+        padding-top: 20px;
     }
     .banner-topright{
         padding-left: 30px;
@@ -486,7 +483,7 @@ a:hover{
     }
     .nav-heading1{
         width: 100%;
-        top: 50px;
+        top: 100px;
     }
     .heading1{
         font-size: 50px;
@@ -498,10 +495,8 @@ a:hover{
         margin: 30px 0;
         width: 25%;
         height: 50px;
-        border: 2px solid white;
         border-radius: 3px;
         margin-left: 20px;
-        color:rgb(15, 204, 204);
         text-align: left;
         padding-left: 20px;
     }
@@ -509,15 +504,11 @@ a:hover{
         margin-top: 20px;
         width: 200px;
         height: 50px;
-        border: 2px solid rgb(15, 204, 204);
         border-radius: 50px 50px 50px 50px;
-        color: rgb(255, 255, 255);
-        background-color: rgb(15, 204, 204) !important;
-        font-variant: small-caps;
     }
     .row.nav-bottom{
-        margin-left: 30%;
-        padding-top: 70px;
+        margin-left: 35%;
+        padding-top: 50px;
         text-align: center;
     }
     .banner-list{
@@ -526,7 +517,7 @@ a:hover{
         padding: 16px;
     }
     .card-section{
-        height: 100%;
+        height: 90%;
         width: 100%;
     }
     .cardheader-content{
@@ -534,7 +525,7 @@ a:hover{
         padding-bottom: 50px;
     }
     .hseperator-holder{
-        padding-left: 40% ;
+        padding-left: 45% ;
         padding-bottom: 5px;
     }
     .cardrow.row{ 
@@ -544,10 +535,9 @@ a:hover{
         font-size: 40px;
         text-align: center;
     }
-    
     .cardheader-text p{
-        padding-left: 250px;
-        padding-right: 250px;
+        padding-left: 350px;
+        padding-right: 350px;
     }
     .card.zoom{
         transition: transform .90s;
@@ -556,7 +546,6 @@ a:hover{
     .card.zoom:hover{
         text-decoration: none;
         transform: scale(1.05);
-    
     }
     .card-img-top{
         height: 229px;
@@ -586,7 +575,6 @@ a:hover{
         padding-right: 250px;
         text-align: center;
     }
-
     .sect-2-toptext {
         margin-left: 30px;
         padding-bottom: 10px;
@@ -603,11 +591,11 @@ a:hover{
     }
     .client{
         width: 100%;
-        height: 100%;
+        height: 90%;
     }
     .client::before{
         width: 100%;
-        height: 100%;
+        height: 90%;
     }
     .client::after{
         content: "";
@@ -632,7 +620,7 @@ a:hover{
     }
     .off-sect::before{
         width: 100%;
-        height: 80%;
+        height: 50%;
     }
     .off-header{
         padding-top: 50px;
@@ -659,28 +647,28 @@ a:hover{
         height: 100%;
         padding-top: 100px;
     }
-   
     .expr-headertext p{
-        padding-left: 150px;
-        padding-right: 150px;
+        padding-left: 350px;
+        padding-right: 350px;
     }
     .expr-content{
+        padding-top: 20px;
         padding-left: 70px;
     }
     .expr-sect p{
         font-weight: 200;
     }
     .expr-content img{
-        width: 300px;
+        width: 400px;
         height: 200px;
     }
     .footer-sect{
         width: 100%;
-        height: 50%;
+        height: 30%;
     }
     .footer-sect::before{
         width: 100%;
-        height: 50%;    
+        height: 30%;    
     }
     .footer-row{
         padding-top: 80px;
@@ -688,7 +676,7 @@ a:hover{
     .footerbottom{
         width: 100%;
         height: 30%;
-        margin-top: 20px;
+        margin-top: 50px;
     }
 }
 @media(min-width:1024px) and (max-width:1279px){
@@ -699,7 +687,6 @@ a:hover{
     .banner::before{
         width: 100%;
         height: 100%;
-    
     }
     .banner:after{
         width: 100%;
@@ -708,8 +695,9 @@ a:hover{
     .banner-top{
         position: relative;
         font-size: 12px;
-        height: 2rem;
+        height: 3rem;
         width: 100%;
+        padding-top: 20px;
     }
     .banner-topright{
         padding-left: 30px;
@@ -724,6 +712,7 @@ a:hover{
     .nav-heading1{
         width: 100%;
         top: 30px;
+        padding-top: 50px; 
     }
     .heading1{
         font-size: 50px;
@@ -755,7 +744,6 @@ a:hover{
         width: 80px;
         padding: 16px;
     }
-
     .card-section{
         height: 100%;
         width: 100%;
@@ -834,10 +822,16 @@ a:hover{
     .client{
         width: 100%;
         height: 100%;
+       
     }
     .client::before{
         width: 100%;
         height: 100%;
+    }
+    .client::after{
+        content: "";
+        display:table;
+        
     }
     .client-row{
         padding-top: 70px;
@@ -879,7 +873,7 @@ a:hover{
     }
     .expr-sect{
         width: 100%;
-        height: 130%;
+        height: 100%;
         padding-top: 100px;
     }
     .expr-headertext p{
@@ -898,11 +892,11 @@ a:hover{
     }
     .footer-sect{
         width: 100%;
-        height: 50%;
+        height: 35%;
     }
     .footer-sect::before{
         width: 100%;
-        height: 50%;    
+        height: 35%;    
     }
     .footer-row{
         padding-top: 100px;
@@ -910,7 +904,7 @@ a:hover{
     .footerbottom{
         width: 100%;
         height: 30%;
-        margin-top: 100px;
+        margin-top: 50px;
     }
 }
 @media(min-width:991px) and (max-width:1023px){
@@ -1504,7 +1498,7 @@ a:hover{
         font-size: 13px;
     }
     .card-section{
-        height: 180%;
+        height: 150%;
         width: 100%;
     }
     .cardheader-content{
@@ -1537,11 +1531,11 @@ a:hover{
     }
     .sect-2{
         width: 100%;
-        height: 120%;
+        height: 100%;
     }
     .sect-2::before{
         width: 100%;
-        height: 120%;
+        height: 100%;
     }
     .sect-2-row{
         padding: 20px;
@@ -1555,7 +1549,7 @@ a:hover{
     } 
     .disc-sect{
         width: 100%;
-        height: 100%;
+        height: 90%;
         padding-top: 50px;
     }
     .disc-headertext p{
@@ -1564,11 +1558,11 @@ a:hover{
     }
     .client{
         width: 100%;
-        height: 280%;
+        height: 250%;
     }
     .client::before{
         width: 100%;
-        height: 280%;
+        height: 250%;
     }
     .client-row{
         padding-top: 70px;
@@ -1588,11 +1582,11 @@ a:hover{
     }
     .off-sect{
         width: 100%;
-        height: 70%;
+        height: 60%;
     }
     .off-sect::before{
         width: 100%;
-        height: 70%;
+        height: 60%;
     }
     .off-header{
         padding-top: 10px;
@@ -1615,7 +1609,7 @@ a:hover{
     }
     .expr-sect{
         width: 100%;
-        height: 250%;
+        height: 230%;
         padding-top: 50px;
     }
     .expr-headertext p{
@@ -1637,11 +1631,11 @@ a:hover{
     }
     .footer-sect{
         width: 100%;
-        height: 50%;
+        height: 35%;
     }
     .footer-sect::before{
         width: 100%;
-        height: 50%;    
+        height: 35%;    
     }
     .footer-row{
         padding-top: 50px;
@@ -1652,7 +1646,7 @@ a:hover{
     .footerbottom{
         width: 100%;
         height: 30%;
-        margin-top: 100px;
+        margin-top: 50px;
     }
     .footerbottom p{
         padding-top: 3%;
