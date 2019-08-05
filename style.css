@@ -585,7 +585,7 @@ a:hover{
     }
     .client{
         width: 100%;
-        height: 300%;
+        height: 280%;
     }
     .client::before{
         width: 100%;
