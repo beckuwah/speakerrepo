@@ -9,7 +9,7 @@ html, body{
 }
 p{
     font-weight: 400;
-    font-size: 14px;
+    font-size: .9rem;
     letter-spacing: 0.05rem;
 }
 a{
@@ -23,7 +23,6 @@ a:hover{
     text-decoration: none !important;
     color:rgb(15, 204, 204)!important;
 }
-
 .banner{
     content:"";
     width: 100%;
@@ -37,7 +36,6 @@ a:hover{
     position: absolute;
     width: 100%;
     height: 110%;
-
 }
 .banner:after{
     background: rgba(25,34,56,0.3);
@@ -49,7 +47,7 @@ a:hover{
 }
 .banner-top{
     position: relative;
-    font-size: 12px;
+    font-size: .8rem;
     height: 2rem;
     width: 100%;
     background-color: rgba(0, 0, 0, 0.9)!important;
@@ -87,11 +85,11 @@ a:hover{
     text-align: center;
 }
 .heading1{
-    font-size: 80px;
+    font-size: 4rem;
     font-weight: 500;
 }
 .nav-hcontent{
-    font-size: 19px !important;
+    font-size: 1.1rem !important;
     padding-bottom: 20px;
 }
 .banner-search{
@@ -108,7 +106,6 @@ a:hover{
     text-align: left;
     padding-left: 20px;
 }
-
 .btn-nav-srch{
     margin-top: 20px;
     width: 200px;
@@ -119,7 +116,6 @@ a:hover{
     background-color: rgb(15, 204, 204) !important;
     font-variant: small-caps;
 }
-
 .row.nav-bottom{
     margin-left: 30%;
     padding-top: 50px;
@@ -130,11 +126,10 @@ a:hover{
     border-radius: 50px 50px 50px 50px;
     background-color: rgba(136, 128, 128, 0.6)!important;
     padding: 16px;
-    font-size: 13px;
+    font-size: .85rem;
 }
 .banner-list a:hover{
     background-color: rgb(15, 204, 204) !important;
-
 }
 .card-section{
     display: block;
@@ -170,7 +165,7 @@ a:hover{
     margin: 0 100px;
 }
 .cardheader{
-    font-size: 40px;
+    font-size: 2.5rem;
     text-align: center;
 }
 
@@ -191,7 +186,6 @@ a:hover{
 .card.zoom:hover{
     text-decoration: none;
     transform: scale(1.05);
-
 }
 .card-img-top{
     height: 229px;
@@ -231,17 +225,12 @@ a:hover{
 .row.sect-2-cont{
     margin-top: 50px;
 }
-.sect-headertext p {
-    padding-left: 250px;
-    padding-right: 250px;
-    text-align: center;
-}
 .sect-2-num{
     float: left;
     height: 30%;
 }
 .num{
-    font-size: 50px;
+    font-size: 3.1rem;
     padding-right: 20px;
 }
 .sect-2-toptext {
@@ -264,12 +253,10 @@ a:hover{
     content: "";
     width: 100%;
     height: 100%;
-   
 }
 .client::before{
     position: absolute;
     content: "";
-    display: table;
     width: 100%;
     height: 100%;
     background: rgba(179, 165, 105, 0.09);
@@ -277,13 +264,16 @@ a:hover{
 .client::after{
     content: "";
     display:table;
-    
 }
 .client-row{
     padding-top: 70px;
 }
 .client-cont{
     margin-left: 30px;
+}
+.carousel-cont img{
+    width: 210px;
+    height: 140px;
 }
 .carousel-indicators {
     top: 100%;
@@ -386,7 +376,7 @@ a:hover{
     font-size: 13px;
 }
 .expr-spkr {
-    font-size: 13px;
+    font-size: 0.8rem;
     color: #646464 !important;
     padding-left: 8px;
 }
@@ -402,7 +392,7 @@ a:hover{
 }
 .expr_date p{
     color: black;
-    font-size: 13px;
+    font-size: 0.8rem;
     font-weight: bold;
     font-weight: 400 !important;
 }
@@ -417,11 +407,9 @@ a:hover{
 .footer-sect::before{
     position: absolute;
     content: "";
-    display: block;
     width: 100%;
     height: 35%;
     background: rgba(53, 53, 53,0.5);
-
 }
 .footer-sect::after{
     content: "";
@@ -435,120 +423,362 @@ a:hover{
     height: 50px;;
     border:solid #f3eeee 3px;
     border-radius: 50px 50px 50px 50px;
-    font-size: 16px;
+    font-size: 1rem;
     background: rgba(0, 0, 0, 0.1);
-
 }
 .footerbottom{
     content: "";
     width: 100%;
     height: 30%;
     background-color: rgba(0, 0, 0, 0.8);
-    margin-top: 60px;
+    margin-top:6% ;
 }
 .footerbottom p{
     padding-top: 2%;
-    font-size: 11px;
-    font-weight: 200px;
+    font-size: 0.6rem;
+    font-weight: 13rem;
 }
 /* media query*/
-@media(min-width:1280px) and (max-width:1440px){
+
+@media(min-width:300px) and (max-width:479px) {
     .banner{
         width: 100%;
-        height: 100%;
+        height: 150%;
     }
     .banner::before{
         width: 100%;
-        height: 100%;
+        height: 150%;
     }
     .banner:after{
         width: 100%;
-        height: 100%;
+        height: 150%;
     }
     .banner-top{
-        font-size: 12px;
-        height: 3rem;
+        padding-top: 5px;
+        font-size: .6rem;
+        height: 2rem;
         width: 100%;
-        padding-top: 20px;
     }
     .banner-topright{
-        padding-left: 30px;
+        padding-left: 5px;
     }
     .banner-topleft{
-        margin-right: 30px;
-        float: right;
+        margin-right: 5px;
     }
     .bannertop_link{
-        padding-left: 20px;
+        padding-left: 10px;
+    }
+    .nav-margin{
+        margin-left: 2px;
+        padding-left: 10px;
+        background-color: rgba(38, 46, 53,0.8);
+        letter-spacing: 0.15rem;
+    }
+    .btn.btn-outline-aqua.nav-search{
+        width: 100px;
+        border: .5px solid white;
+        border-radius: 50px 50px 50px 50px;
+        color: rgb(247, 243, 236);
     }
     .nav-heading1{
         width: 100%;
-        top: 100px;
+        top: 10px;
     }
     .heading1{
-        font-size: 50px;
+        font-size: 2rem;
+        font-weight: 500;
     }
     .nav-hcontent{
-        font-size: 19px !important;
+        font-size: .9rem !important;
+        padding-bottom: 5px;
+    }
+    .banner-search{
+        width: 100%;
     }
     .btn-banner-search{
-        margin: 30px 0;
-        width: 25%;
+        margin: 7px 0;
+        width: 75%;
         height: 50px;
-        border-radius: 3px;
-        margin-left: 20px;
-        text-align: left;
         padding-left: 20px;
     }
     .btn-nav-srch{
-        margin-top: 20px;
+        margin-top: 10px;
         width: 200px;
         height: 50px;
-        border-radius: 50px 50px 50px 50px;
     }
     .row.nav-bottom{
-        margin-left: 35%;
-        padding-top: 50px;
-        text-align: center;
+        margin-left: 7%;
+        padding-top: 20px;
     }
     .banner-list{
-        margin-right: 10px;
-        width: 80px;
-        padding: 16px;
+        margin-right: 5px;
+        width: 50px;
+        border-radius: 50px 50px 50px 50px;
+        background-color: rgba(136, 128, 128, 0.6)!important;
+        padding: 10px;
+        font-size: .65rem;
+    }
+    .banner-list a:hover{
+        background-color: rgb(15, 204, 204) !important;
     }
     .card-section{
-        height: 90%;
+        height: 200%;
         width: 100%;
     }
     .cardheader-content{
-        padding-top: 100px;
+        padding-top: 50px;
         padding-bottom: 50px;
+        text-align: center;
     }
     .hseperator-holder{
-        padding-left: 45% ;
+        padding-left: 20% ;
         padding-bottom: 5px;
+    }
+    .cardheader-text p{
+        padding-left: 15px;
+        padding-right: 10px;
+        color: #646464;
+    }
+    .cardrow.row{ 
+        margin: 0 10px;
+    }
+    .cardheader{
+        font-size: 2.5rem;
+        text-align: center;
+    }
+    .card-img-top{
+        height: 220px;
+    }
+    .card-img-overlay {
+        top: 80% !important;
+        height: 20px;
+        width: 90%;
+        margin-left: 15px;
+    }
+    .sect-2{
+        width: 100%;
+        height: 150%;
+    }
+    .sect-2::before{
+        width: 100%;
+        height: 150%;
+    }
+    .sect-2-row{
+        padding: 15px;
+    }
+    .row.sect-2-cont{
+        margin-top: 30px;
+    }
+    .sect-2-toptext {
+        margin-left: 30px;
+        padding-bottom: 10px;
+        color: white;
+    } 
+    .disc-sect{
+        width: 100%;
+        height: 100%;
+        padding-top: 50px;
+    }
+    .disc-headertext p{
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .client{
+        width: 100%;
+        height: 300%;
+    }
+    .client::before{
+        width: 100%;
+        height: 280%;
+    }
+    .client-row{
+        padding-top: 50px;
+    }
+    .client-cont{
+        margin-left: 1px;
+    }
+    .carousel-cont img{
+        width: 210px;
+        height: 140px;
+    }
+    .off-sect{
+        width: 100%;
+        height: 70%;
+    }
+    .off-sect::before{
+        width: 100%;
+        height: 70%;
+    }
+    .off-header{
+        padding-top: 30px;
+    }
+    .off-cont{
+        margin: 0 0;
+        padding-top: 3%;
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+    .btn-off-srch{
+        width: 100px;
+        height: 40px;
+    }
+    .off-sect-2{
+        height: 130%;
+        padding-top: 70px;
+        padding-left: 50px;
+        padding-right: 20px;
+    }
+    .expr-sect{
+        width: 100%;
+        height: 290%;
+        padding-top: 50px;
+    }
+    .expr-headertext p{
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+    .expr-content{
+        padding-left: 20px;
+    }
+    .expr-content img{
+        width: 250px;
+        height: 200px;
+    }
+    .footer-sect{
+        width: 100%;
+        height: 35%;;
+    }
+    .footer-sect::before{
+        width: 100%;
+        height: 35%;
+    }
+    .footer-row{
+        padding-top: 50px;
+    }
+    .footer-search.form{
+        padding-left: 20px;
+        width: 200px;
+        height: 50px;;
+    }
+    .footerbottom{
+        content: "";
+        width: 100%;
+        height: 30%;
+        background-color: rgba(0, 0, 0, 0.8);
+        margin-top:12% ;
+    }
+    .footerbottom p{
+        padding-top: 2%;
+        font-size: 0.7rem;
+        font-weight: 13rem;
+    }
+} 
+@media(min-width:480px) and (max-width:599px) {
+    .banner{
+        width: 100%;
+        height: 140%;
+    }
+    .banner::before{
+        width: 100%;
+        height: 140%;
+    }
+    .banner:after{
+        width: 100%;
+        height: 140%;
+    }
+    .banner-top{
+        padding-top: 1px;
+        font-size: .6rem;
+        height: 2rem;
+        width: 100%;
+    }
+    .banner-topright{
+        padding-left: 5px;
+    }
+    .banner-topleft{
+        margin-right: 5px;
+    }
+    .bannertop_link{
+        padding-left: 10px;
+    }
+    .nav-margin{
+        margin-left: 2px;
+        padding-left: 10px;
+        background-color: rgba(38, 46, 53,0.8);
+        letter-spacing: 0.15rem;
+    }
+    .btn.btn-outline-aqua.nav-search{
+        width: 100px;
+        border: .5px solid white;;
+    }
+    .nav-heading1{
+        width: 100%;
+        top: 30px;
+    }
+    .heading1{
+        font-size: 2.5rem;
+        font-weight: 500;
+    }
+    .nav-hcontent{
+        font-size: .9rem !important;
+        padding-bottom: 5px;
+    }
+    .banner-search{
+        width: 100%;
+    }
+    .btn-banner-search{
+        margin: 7px 0;
+        width: 75%;
+        height: 50px;
+        padding-left: 20px;
+    }
+    .btn-nav-srch{
+        margin-top: 10px;
+        width: 200px;
+        height: 50px;
+    }
+    .row.nav-bottom{
+        margin-left: 17%;
+        padding-top: 30px;
+    }
+    .banner-list{
+        margin-right: 7px;
+        width: 60px;
+        border-radius: 50px 50px 50px 50px;
+        background-color: rgba(136, 128, 128, 0.6)!important;
+        padding: 14px;
+        font-size: .65rem;
+    }
+    .banner-list a:hover{
+        background-color: rgb(15, 204, 204) !important;
+    }
+    .card-section{
+        height: 170%;
+        width: 100%;
+    }
+    .cardheader-content{
+        padding-top: 50px;
+        padding-bottom: 50px;
+        text-align: center;
+    }
+    .hseperator-holder{
+        padding-left: 35% ;
+        padding-bottom: 5px;
+    }
+    .cardheader-text p{
+        padding-left: 15px;
+        padding-right: 10px;
+        color: #646464;
     }
     .cardrow.row{ 
         margin: 0 50px;
     }
     .cardheader{
-        font-size: 40px;
+        font-size: 2.5rem;
         text-align: center;
     }
-    .cardheader-text p{
-        padding-left: 350px;
-        padding-right: 350px;
-    }
-    .card.zoom{
-        transition: transform .90s;
-        margin: 0 auto;
-    }
-    .card.zoom:hover{
-        text-decoration: none;
-        transform: scale(1.05);
-    }
     .card-img-top{
-        height: 229px;
+        height: 220px;
     }
     .card-img-overlay {
         top: 80% !important;
@@ -558,22 +788,17 @@ a:hover{
     }
     .sect-2{
         width: 100%;
-        height: 50%;
+        height: 100%;
     }
     .sect-2::before{
         width: 100%;
-        height: 50%;
+        height: 100%;
     }
     .sect-2-row{
-        padding: 50px;
+        padding: 20px;
     }
     .row.sect-2-cont{
-        margin-top: 30px;
-    }
-    .sect-headertext p {
-        padding-left: 250px;
-        padding-right: 250px;
-        text-align: center;
+        margin-top: 50px;
     }
     .sect-2-toptext {
         margin-left: 30px;
@@ -581,38 +806,30 @@ a:hover{
     } 
     .disc-sect{
         width: 100%;
-        height: 70%;
-        padding-top: 100px;
+        height: 80%;
+        padding-top: 50px;
     }
     .disc-headertext p{
-        padding-left: 250px;
-        padding-right: 250px;
-        text-align: center;
+        padding-left: 15px;
+        padding-right: 15px;
     }
     .client{
         width: 100%;
-        height: 90%;
+        height: 250%;
     }
     .client::before{
         width: 100%;
-        height: 90%;
-    }
-    .client::after{
-        content: "";
-        display:table;
+        height: 250%;
     }
     .client-row{
-        padding-top: 70px;
+        padding-top: 50px;
     }
-    .carousel-cont.row img{
-        width: 250px;
+    .client-cont{
+        margin-left: 5px;
+    }
+    .carousel-cont img{
+        width: 210px;
         height: 140px;
-    }
-    .client_p{
-        padding-right: 10px;
-    }
-    .carousel-cont.row{
-        padding: 20px;
     }
     .off-sect{
         width: 100%;
@@ -623,63 +840,530 @@ a:hover{
         height: 50%;
     }
     .off-header{
-        padding-top: 50px;
+        padding-top: 30px;
     }
     .off-cont{
-        margin: 0 20px;
+        margin: 0 0;
         padding-top: 3%;
-        padding-left: 20%;
-        padding-right: 20%;
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+    .btn-off-srch{
+        width: 100px;
+        height: 40px;
+    }
+    .off-sect-2{
+        height: 100%;
+        padding-top: 70px;
+        padding-left: 50px;
+        padding-right: 20px;
+    }
+    .expr-sect{
+        width: 100%;
+        height: 250%;
+        padding-top: 50px;
+    }
+    .expr-headertext p{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .expr-content{
+        padding-left: 150px;
+    }
+    .expr-content img{
+        width: 250px;
+        height: 200px;
+    }
+    .footer-sect{
+        width: 100%;
+        height: 35%;;
+    }
+    .footer-sect::before{
+        width: 100%;
+        height: 35%;
+    }
+    .footer-row{
+        padding-top: 50px;
+    }
+    .footer-search.form{
+        padding-left: 20px;
+        width: 200px;
+        height: 50px;;
+    }
+    .footerbottom{
+        width: 100%;
+        height: 30%;
+        margin-top:12% ;
+    }
+    .footerbottom p{
+        padding-top: 1%;
+        font-size: 0.7rem;
+        font-weight: 13rem;
+    }
+}
+@media(min-width:600px) and (max-width:767px) {
+    .banner{
+        width: 100%;
+        height: 135%;
+    }
+    .banner::before{
+        width: 100%;
+        height: 135%;
+    }
+    .banner:after{
+        width: 100%;
+        height: 135%;
+    }
+    .banner-top{
+        padding-top: 5px;
+        font-size: .6rem;
+        height: 2rem;
+        width: 100%;
+    }
+    .banner-topright{
+        padding-left: 5px;
+    }
+    .banner-topleft{
+        margin-right: 5px;
+    }
+    .bannertop_link{
+        padding-left: 10px;
+    }
+    .nav-margin{
+        margin-left: 2px;
+        padding-left: 10px;
+        background-color: rgba(38, 46, 53,0.8);
+        letter-spacing: 0.15rem;
+    }
+    .btn.btn-outline-aqua.nav-search{
+        width: 100px;
+        border: .5px solid white;;
+    }
+    .nav-heading1{
+        width: 100%;
+        top: 30px;
+    }
+    .heading1{
+        font-size: 2.9rem;
+        font-weight: 500;
+    }
+    .nav-hcontent{
+        font-size: .9rem !important;
+        padding-left: 20px;
+        padding-bottom: 5px;
+    }
+    .banner-search{
+        width: 100%;
+    }
+    .btn-banner-search{
+        margin: 7px 0;
+        width: 45%;
+        height: 50px;
+        padding-left: 20px;
+    }
+    .btn-nav-srch{
+        margin-top: 10px;
+        width: 200px;
+        height: 50px;
+    }
+    .row.nav-bottom{
+        margin-left: 23%;
+        padding-top: 30px;
+    }
+    .banner-list{
+        margin-right: 7px;
+        width: 70px;
+        border-radius: 50px 50px 50px 50px;
+        background-color: rgba(136, 128, 128, 0.6)!important;
+        padding: 15px;
+        font-size: .65rem;
+    }
+    .banner-list a:hover{
+        background-color: rgb(15, 204, 204) !important;
+    }
+    .card-section{
+        height: 170%;
+        width: 100%;
+    }
+    .cardheader-content{
+        padding-top: 50px;
+        padding-bottom: 50px;
         text-align: center;
+    }
+    .hseperator-holder{
+        padding-left: 35% ;
+        padding-bottom: 5px;
+    }
+    .cardheader-text p{
+        padding-left: 25px;
+        padding-right: 20px;
+        color: #646464;
+    }
+    .cardrow.row{ 
+        margin: 0 150px;
+    }
+    .cardheader{
+        font-size: 2.5rem;
+        text-align: center;
+    }
+    .card-img-top{
+        height: 220px;
+    }
+    .card-img-overlay {
+        top: 80% !important;
+        height: 20px;
+        width: 93%;
+        margin-left: 15px;
+    }
+    .sect-2{
+        width: 100%;
+        height: 100%;
+    }
+    .sect-2::before{
+        width: 100%;
+        height: 100%;
+    }
+    .sect-2-row{
+        padding: 20px;
+    }
+    .row.sect-2-cont{
+        margin-top: 50px;
+    }
+    .sect-2-toptext {
+        margin-left: 30px;
+        padding-bottom: 10px;
+    } 
+    .disc-sect{
+        width: 100%;
+        height: 80%;
+        padding-top: 50px;
+    }
+    .disc-headertext p{
+        padding-left: 25px;
+        padding-right: 10px;
+    }
+    .client{
+        width: 100%;
+        height: 250%;
+    }
+    .client::before{
+        width: 100%;
+        height: 250%;
+    }
+    .client-row{
+        padding-top: 50px;
+    }
+    .client-cont{
+        margin-left: 5px;
+    }
+    .carousel-cont img{
+        width: 210px;
+        height: 140px;
+    }
+    .off-sect{
+        width: 100%;
+        height: 50%;
+    }
+    .off-sect::before{
+        width: 100%;
+        height: 50%;
+    }
+    .off-header{
+        padding-top: 30px;
+    }
+    .off-cont{
+        margin: 0 0;
+        padding-top: 3%;
+        padding-left: 100px;
+        padding-right: 100px;
+    }
+    .btn-off-srch{
+        width: 100px;
+        height: 40px;
+    }
+    .off-sect-2{
+        height: 100%;
+        padding-top: 70px;
+        padding-left: 50px;
+        padding-right: 20px;
+    }
+    .expr-sect{
+        width: 100%;
+        height: 240%;
+        padding-top: 50px;
+    }
+    .expr-headertext p{
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+    .expr-content{
+        padding-left: 150px;
+    }
+    .expr-content img{
+        width: 250px;
+        height: 200px;
+    }
+    .footer-sect{
+        width: 100%;
+        height: 35%;;
+    }
+    .footer-sect::before{
+        width: 100%;
+        height: 35%;
+    }
+    .footer-row{
+        padding-top: 50px;
+    }
+    .footer-search.form{
+        padding-left: 20px;
+        width: 200px;
+        height: 50px;;
+    }
+    .footerbottom{
+        width: 100%;
+        height: 30%;
+        margin-top:9% ;
+    }
+    .footerbottom p{
+        padding-top: 1%;
+        font-size: 0.7rem;
+        font-weight: 13rem;
+    }
+}
+@media(min-width:768px) and (max-width:990px) {
+    .banner{
+        width: 100%;
+        height: 135%;
+    }
+    .banner::before{
+        width: 100%;
+        height: 135%;
+    }
+    .banner:after{
+        width: 100%;
+        height: 135%;
+    }
+    .banner-top{
+        padding-top: 5px;
+        font-size: .6rem;
+        height: 2rem;
+        width: 100%;
+    }
+    .banner-topright{
+        padding-left: 10px;
+    }
+    .banner-topleft{
+        margin-right: 10px;
+    }
+    .bannertop_link{
+        padding-left: 20px;
+    }
+    .nav-margin{
+        margin-left: 2px;
+        padding-left: 10px;
+        background-color: rgba(38, 46, 53,0.8);
+        letter-spacing: 0.15rem;
+    }
+    .btn.btn-outline-aqua.nav-search{
+        width: 100px;
+        border: .5px solid white;;
+    }
+    .nav-heading1{
+        width: 100%;
+        top: 30px;
+    }
+    .heading1{
+        font-size: 3rem;
+        font-weight: 500;
+    }
+    .nav-hcontent{
+        font-size: .9rem !important;
+        padding-left: 30px;
+        padding-bottom: 5px;
+    }
+    .banner-search{
+        width: 100%;
+    }
+    .btn-banner-search{
+        margin: 10px 0;
+        width: 35%;
+        height: 50px;
+        padding-left: 20px;
+    }
+    .btn-nav-srch{
+        margin-top: 10px;
+        width: 200px;
+        height: 50px;
+    }
+    .row.nav-bottom{
+        margin-left: 23%;
+        padding-top: 30px;
+    }
+    .banner-list{
+        margin-right: 10px;
+        width: 80px;
+        border-radius: 50px 50px 50px 50px;
+        background-color: rgba(136, 128, 128, 0.6)!important;
+        padding: 16px;
+        font-size: .75rem;
+    }
+    .banner-list a:hover{
+        background-color: rgb(15, 204, 204) !important;
+    }
+    .card-section{
+        height: 100%;
+        width: 100%;
+    }
+    .cardheader-content{
+        padding-top: 50px;
+        padding-bottom: 50px;
+        text-align: center;
+    }
+    .hseperator-holder{
+        padding-left: 40% ;
+        padding-bottom: 5px;
+    }
+    .cardheader-text p{
+        padding-left: 35px;
+        padding-right: 30px;
+        color: #646464;
+    }
+    .cardrow.row{ 
+        margin: 0 10px;
+    }
+    .cardheader{
+        font-size: 2.5rem;
+        text-align: center;
+    }
+    .card-img-top{
+        height: 220px;
+    }
+    .card-img-overlay {
+        top: 80% !important;
+        height: 20px;
+        width: 90%;
+        margin-left: 15px;
+    }
+    .sect-2{
+        width: 100%;
+        height: 100%;
+    }
+    .sect-2::before{
+        width: 100%;
+        height: 100%;
+    }
+    .sect-2-row{
+        padding-top: 20px;
+    }
+    .row.sect-2-cont{
+        margin-top: 50px;
+    }
+    .sect-2-toptext {
+        margin-left: 30px;
+        padding-bottom: 10px;
+    } 
+    .disc-sect{
+        width: 100%;
+        height: 80%;
+        padding-top: 50px;
+    }
+    .disc-headertext p{
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .client{
+        width: 100%;
+        height: 150%;
+    }
+    .client::before{
+        width: 100%;
+        height: 150%;
+    }
+    .client-row{
+        padding-top: 50px;
+    }
+    .client-cont{
+        margin-left: 5px;
+    }
+    .carousel-cont img{
+        width: 320px;
+        height: 120px;
+    }
+    .client_p{
+        padding-right: 50px;
+    }
+    .off-sect{
+        width: 100%;
+        height: 50%;
+    }
+    .off-sect::before{
+        width: 100%;
+        height: 50%;
+    }
+    .off-header{
+        padding-top: 30px;
+    }
+    .off-cont{
+        margin: 0 0;
+        padding-top: 3%;
+        padding-left: 200px;
+        padding-right: 200px;
     }
     .btn-off-srch{
         width: 150px;
         height: 40px;
     }
     .off-sect-2{
-        height: 50%;
-        padding-top: 100px;
-        padding-left: 100px;
-        padding-right: 100px;
+        height: 60%;
+        padding-top: 70px;
+        padding-left: 50px;
+        padding-right: 20px;
     }
     .expr-sect{
         width: 100%;
-        height: 100%;
-        padding-top: 100px;
+        height: 120%;
+        padding-top: 50px;
     }
     .expr-headertext p{
-        padding-left: 350px;
-        padding-right: 350px;
+        padding-left: 200px;
+        padding-right: 200px;
     }
     .expr-content{
-        padding-top: 20px;
-        padding-left: 70px;
-    }
-    .expr-sect p{
-        font-weight: 200;
+        padding-left: 50px;
     }
     .expr-content img{
-        width: 400px;
+        width: 230px;
         height: 200px;
     }
     .footer-sect{
         width: 100%;
-        height: 30%;
+        height: 35%;;
     }
     .footer-sect::before{
         width: 100%;
-        height: 30%;    
+        height: 35%;
     }
     .footer-row{
         padding-top: 80px;
     }
+    .footer-search.form{
+        padding-left: 20px;
+        width: 300px;
+        height: 50px;;
+    }
     .footerbottom{
         width: 100%;
         height: 30%;
-        margin-top: 50px;
+        margin-top:5% ;
     }
+    .footerbottom p{
+        padding-top: 1%;
+        font-size: 0.7rem;
+        font-weight: 13rem;
+    }
+
 }
-@media(min-width:1024px) and (max-width:1279px){
+@media(min-width:991px) and (max-width:1023px) {
     .banner{
         width: 100%;
         height: 100%;
@@ -693,40 +1377,514 @@ a:hover{
         height: 100%;
     }
     .banner-top{
-        position: relative;
-        font-size: 12px;
-        height: 3rem;
+        padding-top: 5px;
+        font-size: .6rem;
+        height: 2rem;
         width: 100%;
-        padding-top: 20px;
     }
     .banner-topright{
-        padding-left: 30px;
+        padding-left: 10px;
     }
     .banner-topleft{
-        margin-right: 30px;
-        float: right;
+        margin-right: 10px;
     }
     .bannertop_link{
         padding-left: 20px;
     }
+    .nav-margin{
+        margin-left: 2px;
+        padding-left: 10px;
+        letter-spacing: 0.15rem;
+    }
+    .btn.btn-outline-aqua.nav-search{
+        width: 100px;
+        border: .5px solid white;;
+    }
     .nav-heading1{
         width: 100%;
-        top: 30px;
-        padding-top: 50px; 
+        top: 50px;
     }
     .heading1{
-        font-size: 50px;
+        font-size: 3.5rem;
+        font-weight: 500;
     }
     .nav-hcontent{
-        font-size: 19px !important;
+        font-size: 1rem !important;
+        padding-left: 30px;
+        padding-bottom: 5px;
+    }
+    .banner-search{
+        width: 100%;
     }
     .btn-banner-search{
         margin: 30px 0;
         width: 25%;
         height: 50px;
-        border-radius: 3px;
-        margin-left: 20px;
-        text-align: left;
+        padding-left: 20px;
+    }
+    .btn-nav-srch{
+        margin-top: 10px;
+        width: 200px;
+        height: 50px;
+    }
+    .row.nav-bottom{
+        margin-left: 30%;
+        padding-top: 30px;
+    }
+    .banner-list{
+        margin-right: 10px;
+        width: 80px;
+        border-radius: 50px 50px 50px 50px;
+        background-color: rgba(136, 128, 128, 0.6)!important;
+        padding: 16px;
+        font-size: .75rem;
+    }
+    .banner-list a:hover{
+        background-color: rgb(15, 204, 204) !important;
+    }
+    .card-section{
+        height: 100%;
+        width: 100%;
+    }
+    .cardheader-content{
+        padding-top: 50px;
+        padding-bottom: 50px;
+        text-align: center;
+    }
+    .hseperator-holder{
+        padding-left: 40% ;
+        padding-bottom: 5px;
+    }
+    .cardheader-text p{
+        padding-left: 300px;
+        padding-right: 300px;
+        color: #646464;
+    }
+    .cardrow.row{ 
+        margin: 0 10px;
+    }
+    .cardheader{
+        font-size: 2.5rem;
+        text-align: center;
+    }
+    .card-img-top{
+        height: 220px;
+    }
+    .card-img-overlay {
+        top: 80% !important;
+        height: 20px;
+        width: 90%;
+        margin-left: 15px;
+    }
+    .sect-2{
+        width: 100%;
+        height: 70%;
+    }
+    .sect-2::before{
+        width: 100%;
+        height: 70%;
+    }
+    .sect-2-row{
+        padding: 20px;
+    }
+    .row.sect-2-cont{
+        margin-top: 50px;
+    }
+    .sect-2-toptext {
+        margin-left: 30px;
+        padding-bottom: 10px;
+    } 
+    .disc-sect{
+        width: 100%;
+        height: 60%;
+        padding-top: 50px;
+    }
+    .disc-headertext p{
+        padding-left: 300px;
+        padding-right: 300px;
+    }
+    .client{
+        width: 100%;
+        height: 130%;
+    }
+    .client::before{
+        width: 100%;
+        height: 130%;
+    }
+    .client-row{
+        padding-top: 50px;
+    }
+    .client-cont{
+        margin-left: 0px;
+    }
+    .carousel-cont img{
+        width: 210px;
+        height: 140px;
+    }
+    .client_p{
+        padding-right: 5px;
+    }
+    .off-sect{
+        width: 100%;
+        height: 50%;
+    }
+    .off-sect::before{
+        width: 100%;
+        height: 50%;
+    }
+    .off-header{
+        padding-top: 30px;
+    }
+    .off-cont{
+        margin: 0 0;
+        padding-top: 3%;
+        padding-left: 300px;
+        padding-right: 300px;
+    }
+    .btn-off-srch{
+        width: 150px;
+        height: 40px;
+    }
+    .off-sect-2{
+        height: 60%;
+        padding-top: 70px;
+        padding-left: 50px;
+        padding-right: 20px;
+    }
+    .expr-sect{
+        width: 100%;
+        height: 120%;
+        padding-top: 50px;
+    }
+    .expr-headertext p{
+        padding-left: 300px;
+        padding-right: 300px;
+    }
+    .expr-content{
+        padding-left: 50px;
+    }
+    .expr-content img{
+        width: 230px;
+        height: 200px;
+    }
+    .footer-sect{
+        width: 100%;
+        height: 35%;;
+    }
+    .footer-sect::before{
+        width: 100%;
+        height: 35%;
+    }
+    .footer-row{
+        padding-top: 80px;
+    }
+    .footer-search.form{
+        padding-left: 20px;
+        width: 300px;
+        height: 50px;;
+    }
+    .footerbottom{
+        width: 100%;
+        height: 30%;
+        margin-top:4% ;
+    }
+    .footerbottom p{
+        padding-top: 1%;
+        font-size: 0.7rem;
+        font-weight: 13rem;
+    }
+    
+}
+@media(min-width:1024px) and (max-width:1279px) {  
+    .banner{
+        width: 100%;
+        height: 100%;
+    }
+    .banner::before{
+        width: 100%;
+        height: 100%;
+    }
+    .banner:after{
+        width: 100%;
+        height: 100%;
+    }
+    .banner-top{
+        padding-top: 5px;
+        font-size: .6rem;
+        height: 2rem;
+        width: 100%;
+    }
+    .banner-topright{
+        padding-left: 10px;
+    }
+    .banner-topleft{
+        margin-right: 10px;
+    }
+    .bannertop_link{
+        padding-left: 20px;
+    }
+    .nav-margin{
+        margin-left: 2px;
+        padding-left: 10px;
+        letter-spacing: 0.15rem;
+    }
+    .btn.btn-outline-aqua.nav-search{
+        width: 100px;
+        border: .5px solid white;;
+    }
+    .nav-heading1{
+        width: 100%;
+        top: 30px;
+    }
+    .heading1{
+        font-size: 3rem;
+        font-weight: 500;
+    }
+    .nav-hcontent{
+        font-size: .9rem !important;
+        padding-left: 30px;
+        padding-bottom: 5px;
+    }
+    .banner-search{
+        width: 100%;
+    }
+    .btn-banner-search{
+        margin: 10px 0;
+        width: 25%;
+        height: 50px;
+        padding-left: 20px;
+    }
+    .btn-nav-srch{
+        margin-top: 10px;
+        width: 200px;
+        height: 50px;
+    }
+    .row.nav-bottom{
+        margin-left: 27%;
+        padding-top: 50px;
+    }
+    .banner-list{
+        margin-right: 10px;
+        width: 80px;
+        border-radius: 50px 50px 50px 50px;
+        background-color: rgba(136, 128, 128, 0.6)!important;
+        padding: 16px;
+        font-size: .75rem;
+    }
+    .banner-list a:hover{
+        background-color: rgb(15, 204, 204) !important;
+    }
+    .card-section{
+        height: 100%;
+        width: 100%;
+    }
+    .cardheader-content{
+        padding-top: 50px;
+        padding-bottom: 50px;
+        text-align: center;
+    }
+    .hseperator-holder{
+        padding-left: 40% ;
+        padding-bottom: 5px;
+    }
+    .cardheader-text p{
+        padding-left: 300px;
+        padding-right: 300px;
+        color: #646464;
+    }
+    .cardrow.row{ 
+        margin: 0 10px;
+    }
+    .cardheader{
+        font-size: 2.5rem;
+        text-align: center;
+    }
+    .card-img-top{
+        height: 220px;
+    }
+    .card-img-overlay {
+        top: 80% !important;
+        height: 20px;
+        width: 90%;
+        margin-left: 15px;
+    }
+    .sect-2{
+        width: 100%;
+        height: 70%;
+    }
+    .sect-2::before{
+        width: 100%;
+        height: 70%;
+    }
+    .sect-2-row{
+        padding: 20px;
+    }
+    .row.sect-2-cont{
+        margin-top: 50px;
+    }
+    .sect-2-toptext {
+        margin-left: 30px;
+        padding-bottom: 10px;
+    } 
+    .disc-sect{
+        width: 100%;
+        height: 60%;
+        padding-top: 50px;
+    }
+    .disc-headertext p{
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .client{
+        width: 100%;
+        height: 130%;
+    }
+    .client::before{
+        width: 100%;
+        height: 130%;
+    }
+    .client-row{
+        padding-top: 50px;
+    }
+    .client-cont{
+        margin-left: 0px;
+    }
+    .carousel-cont img{
+        width: 210px;
+        height: 140px;
+    }
+    .client_p{
+        padding-right: 5px;
+    }
+    .off-sect{
+        width: 100%;
+        height: 50%;
+    }
+    .off-sect::before{
+        width: 100%;
+        height: 50%;
+    }
+    .off-header{
+        padding-top: 30px;
+        padding-left: 300px;
+        padding-right: 300px;
+    }
+    .off-cont{
+        margin: 0 0;
+        padding-top: 3%;
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+    .btn-off-srch{
+        width: 150px;
+        height: 40px;
+    }
+    .off-sect-2{
+        height: 60%;
+        padding-top: 70px;
+        padding-left: 50px;
+        padding-right: 20px;
+    }
+    .expr-sect{
+        width: 100%;
+        height: 120%;
+        padding-top: 50px;
+    }
+    .expr-headertext p{
+        padding-left: 300px;
+        padding-right: 300px;
+    }
+    .expr-content{
+        padding-left: 50px;
+    }
+    .expr-content img{
+        width: 250px;
+        height: 200px;
+    }
+    .footer-sect{
+        width: 100%;
+        height: 35%;;
+    }
+    .footer-sect::before{
+        width: 100%;
+        height: 35%;
+    }
+    .footer-row{
+        padding-top: 70px;
+    }
+    .footer-search.form{
+        padding-left: 20px;
+        width: 300px;
+        height: 50px;;
+    }
+    .footerbottom{
+        width: 100%;
+        height: 30%;
+        margin-top:5% ;
+    }
+    .footerbottom p{
+        padding-top: 1%;
+        font-size: 0.7rem;
+        font-weight: 13rem;
+    }
+}
+@media(min-width:1280px) and (max-width:1440px) {
+    .banner{
+        width: 100%;
+        height: 100%;
+    }
+    .banner::before{
+        width: 100%;
+        height: 100%;
+    }
+    .banner:after{
+        width: 100%;
+        height: 100%;
+    }
+    .banner-top{
+        padding-top: 5px;
+        font-size: .6rem;
+        height: 2rem;
+        width: 100%;
+    }
+    .banner-topright{
+        padding-left: 10px;
+    }
+    .banner-topleft{
+        margin-right: 10px;
+    }
+    .bannertop_link{
+        padding-left: 20px;
+    }
+    .nav-margin{
+        margin-left: 2px;
+        padding-left: 10px;
+        letter-spacing: 0.15rem;
+    }
+    .btn.btn-outline-aqua.nav-search{
+        width: 100px;
+        border: .5px solid white;;
+    }
+    .nav-heading1{
+        width: 100%;
+        top: 50px;
+    }
+    .heading1{
+        font-size: 4rem;
+        font-weight: 500;
+    }
+    .nav-hcontent{
+        font-size: 1rem !important;
+        padding-left: 30px;
+        padding-bottom: 5px;
+    }
+    .banner-search{
+        width: 100%;
+    }
+    .btn-banner-search{
+        margin: 10px 0;
+        width: 25%;
+        height: 50px;
         padding-left: 20px;
     }
     .btn-nav-srch{
@@ -737,47 +1895,45 @@ a:hover{
     .row.nav-bottom{
         margin-left: 30%;
         padding-top: 50px;
-        text-align: center;
     }
     .banner-list{
         margin-right: 10px;
         width: 80px;
+        border-radius: 50px 50px 50px 50px;
+        background-color: rgba(136, 128, 128, 0.6)!important;
         padding: 16px;
+        font-size: .75rem;
+    }
+    .banner-list a:hover{
+        background-color: rgb(15, 204, 204) !important;
     }
     .card-section{
         height: 100%;
         width: 100%;
     }
     .cardheader-content{
-        padding-top: 100px;
+        padding-top: 50px;
         padding-bottom: 50px;
+        text-align: center;
     }
     .hseperator-holder{
         padding-left: 40% ;
         padding-bottom: 5px;
     }
+    .cardheader-text p{
+        padding-left: 300px;
+        padding-right: 300px;
+        color: #646464;
+    }
     .cardrow.row{ 
         margin: 0 10px;
     }
     .cardheader{
-        font-size: 40px;
+        font-size: 2.5rem;
         text-align: center;
     }
-
-    .cardheader-text p{
-        padding-left: 250px;
-        padding-right: 250px;
-    }
-    .card.zoom{
-        transition: transform .90s;
-        margin: 0 auto;
-    }
-    .card.zoom:hover{
-        text-decoration: none;
-        transform: scale(1.05);
-    }
     .card-img-top{
-        height: 229px;
+        height: 220px;
     }
     .card-img-overlay {
         top: 80% !important;
@@ -797,380 +1953,71 @@ a:hover{
         padding: 50px;
     }
     .row.sect-2-cont{
-        margin-top: 30px;
-    }
-    .sect-headertext p {
-        padding-left: 250px;
-        padding-right: 250px;
-        text-align: center;
-    }
-
-    .sect-2-toptext {
-        margin-left: 30px;
-        padding-bottom: 10px;
-    } 
-    .disc-sect{
-        width: 100%;
-        height: 80%;
-        padding-top: 100px;
-    }
-    .disc-headertext p{
-        padding-left: 250px;
-        padding-right: 250px;
-        text-align: center;
-    }
-    .client{
-        width: 100%;
-        height: 100%;
-       
-    }
-    .client::before{
-        width: 100%;
-        height: 100%;
-    }
-    .client::after{
-        content: "";
-        display:table;
-        
-    }
-    .client-row{
-        padding-top: 70px;
-    }
-   
-    .client_p{
-        padding-right: 10px;
-    }
-    .carousel-cont.row{
-        padding: 20px;
-    }
-    .off-sect{
-        width: 100%;
-        height: 60%;
-    }
-    .off-sect::before{
-        width: 100%;
-        height: 60%;
-    }
-    .off-header{
-        padding-top: 50px;
-    }
-    .off-cont{
-        margin: 0 20px;
-        padding-top: 3%;
-        padding-left: 20%;
-        padding-right: 20%;
-        text-align: center;
-    }
-    .btn-off-srch{
-        width: 100px;
-        height: 40px;
-    }
-    .off-sect-2{
-        height: 60%;
-        padding-top: 100px;
-        padding-left: 100px;
-        padding-right: 100px;
-    }
-    .expr-sect{
-        width: 100%;
-        height: 100%;
-        padding-top: 100px;
-    }
-    .expr-headertext p{
-        padding-left: 150px;
-        padding-right: 150px;
-    }
-    .expr-content{
-        padding-left: 70px;
-    }
-    .expr-sect p{
-        font-weight: 200;
-    }
-    .expr-content img{
-        width: 300px;
-        height: 200px;
-    }
-    .footer-sect{
-        width: 100%;
-        height: 35%;
-    }
-    .footer-sect::before{
-        width: 100%;
-        height: 35%;    
-    }
-    .footer-row{
-        padding-top: 100px;
-    }
-    .footerbottom{
-        width: 100%;
-        height: 30%;
         margin-top: 50px;
     }
-}
-@media(min-width:991px) and (max-width:1023px){
-    .banner{
-        width: 100%;
-        height: 130%;
-    }
-    .banner::before{
-        width: 100%;
-        height: 130%;
-    
-    }
-    .banner:after{
-        width: 100%;
-        height: 130%;
-    }
-    .banner-top{
-        position: relative;
-        font-size: 12px;
-        height: 2rem;
-        width: 100%;
-    }
-    .card-section{
-        height: 100%;
-        width: 100%;
-    }
-    .cardheader-content{
-        padding-top: 50px;
-        padding-bottom: 50px;
-    }
-    .hseperator-holder{
-        padding-left: 40% ;
-        padding-bottom: 5px;
-    }
-    .cardrow.row{ 
-        margin: 0 20px;
-    }
-    .sect-2{
-        width: 100%;
-        height: 70%;
-    }
-    .sect-2::before{
-        width: 100%;
-        height: 70%;
-    }
-    .sect-2-row{
-        padding: 30px;
-    }
-    .row.sect-2-cont{
-        padding: 30px;
-    }
-    .sect-headertext p {
-        padding-left: 250px;
-        padding-right: 250px;
-    }
     .sect-2-toptext {
         margin-left: 30px;
         padding-bottom: 10px;
     } 
     .disc-sect{
         width: 100%;
-        height: 100%;
-        padding-top: 100px;
+        height: 60%;
+        padding-top: 50px;
     }
     .disc-headertext p{
-        padding-left: 100px;
-        padding-right: 100px;
+        padding-left: 15px;
+        padding-right: 15px;
     }
     .client{
         width: 100%;
-        height: 150%;
+        height: 130%;
     }
     .client::before{
         width: 100%;
-        height: 150%;
+        height: 130%;
     }
     .client-row{
         padding-top: 50px;
     }
     .client-cont{
-        margin-left: 20px;
+        margin-left: 0px;
     }
-    .expr-sect{
+    .carousel-cont img{
+        width: 210px;
+        height: 140px;
+    }
+    .client_p{
+        padding-right: 5px;
+    }
+    .off-sect{
         width: 100%;
-        height: 120%;
-        padding-top: 50px;
+        height: 50%;
     }
-    .expr-headertext p{
-        padding-left: 50px;
-        padding-right: 50px;
-    }
-    .expr-sect p{
-        font-weight: 200;
-    }
-    .expr-p{
-        padding-right: 30px;
-    }
-    .expr-content img{
-        width: 270px;
-        height: 150px;
-    }
-    .footerbottom{
+    .off-sect::before{
         width: 100%;
-        height: 30%;
-        margin-top: 30px;
+        height: 50%;
     }
-}
-@media(min-width:768px) and (max-width:991px){
-    .banner{
-        width: 100%;
-        height: 130%;
-    }
-    .banner::before{
-        width: 100%;
-        height: 130%;
-    }
-    .banner:after{
-        width: 100%;
-        height: 130%;
-        
-    }
-    .nav-heading1{
-        width: 100%;
-        top: 30px;
-    }
-    .heading1{
-        font-size: 60px;
-        font-weight: 500;
-    }
-    .nav-hcontent{
-        font-size: 19px !important;
-        padding-bottom: 20px;
-    }
-    .banner-search{
-        width: 100%;
-    }
-    .btn-banner-search{
-        margin: 10px 0;
-        width: 25%;
-        height: 50px;
-        border-radius: 3px;
-        margin-left: 20px;
-        text-align: left;
-        padding-left: 20px;
-    }
-    .btn-nav-srch{
-        margin-top: 20px;
-        width: 200px;
-        height: 50px;
-        border-radius: 50px 50px 50px 50px;
-        font-variant: small-caps;
-    }
-    .row.nav-bottom{
-        margin-left: 20%;
+    .off-header{
         padding-top: 30px;
-        text-align: center;
-    }
-    .banner-list{
-        margin-right: 10px;
-        width: 80px;
-        border-radius: 50px 50px 50px 50px;
-        padding: 16px;
-        font-size: 13px;
-    }
-    .card-section{
-        height: 100%;
-        width: 100%;
-    }
-    .cardheader-content{
-        padding-top: 50px;
-        padding-bottom: 50px;
-    }
-    .hseperator-holder{
-        padding-left: 40% ;
-        padding-bottom: 5px;
-    }
-    .cardrow.row{ 
-        margin: 0 20px;
-    }
-    .cardheader{
-        font-size: 40px;
-        text-align: center;
-    }
-    .cardheader-text p{
-        padding-left: 150px;
-        padding-right: 150px;
-    }
-    .card-img-top{
-        height: 229px;
-    }
-    .card-img-overlay {
-        top: 80% !important;
-        height: 20px;
-        width: 87%;
-        margin-left: 15px;
-    }
-    .sect-2{
-        width: 100%;
-        height: 130%;
-    }
-    .sect-2::before{
-        width: 100%;
-        height: 130%;
-    }
-    .sect-2-row{
-        padding: 30px;
-    }
-    .row.sect-2-cont{
-        padding: 30px;
-    }
-    .sect-headertext p {
-        padding-left: 250px;
-        padding-right: 250px;
-    }
-    .sect-2-toptext {
-        margin-left: 30px;
-        padding-bottom: 10px;
-    } 
-    .disc-sect{
-        width: 100%;
-        height: 100%;
-        padding-top: 100px;
-    }
-    .disc-headertext p{
-        padding-left: 100px;
-        padding-right: 100px;
-    }
-    .client{
-        width: 100%;
-        height: 250%;
-    }
-    .client::before{
-        width: 100%;
-        height: 250%;
-    }
-    .client-row{
-        padding-top: 50px;
-    }
-    .client-cont{
-        margin-left: 150px;
-    }
-    .client_p{
-        padding-right: 150px;
-    }
-    .off-sect{
-        width: 100%;
-        height: 70%;
-    }
-    .off-sect::before{
-        width: 100%;
-        height: 70%;
-    }
-    .off-header{
-        padding-top: 20px;
+        padding-left: 300px;
+        padding-right: 300px;
+
     }
     .off-cont{
-        margin: 0 10px;
-        padding-top: 1%;
-        padding-left: 20%;
-        padding-right: 20%;
+        margin: 0 0;
+        padding-top: 3%;
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+    .btn-off-srch{
+        width: 100px;
+        height: 40px;
     }
     .off-sect-2{
         height: 60%;
-        padding-top: 50px;
-        padding-left: 100px;
-        padding-right: 100px;
+        padding-top: 70px;
+        padding-left: 50px;
+        padding-right: 20px;
     }
     .expr-sect{
         width: 100%;
@@ -1178,718 +2025,40 @@ a:hover{
         padding-top: 50px;
     }
     .expr-headertext p{
-        padding-left: 100px;
-        padding-right: 100px;
+        padding-left: 300px;
+        padding-right: 300px;
     }
     .expr-content{
-        padding-left: 2%;
-    }
-    .expr-sect p{
-        font-weight: 200;
+        padding-left: 50px;
     }
     .expr-content img{
         width: 250px;
-        height: 150px;
-    }
-    .footer-sect{
-        width: 100%;
-        height: 50%;        
-    }
-    .footer-sect::before{
-        width: 100%;
-        height: 50%;    
-    }
-    .footer-row{
-        padding-top: 100px;
-    }
-    .footerbottom{
-        width: 100%;
-        height: 30%;
-        margin-top: 100px;
-    }
-    .footerbottom p{
-        padding-top: 2%;
-        font-size: 11px;
-    }    
-}
-@media(min-width:600px) and (max-width:767px){
-    .banner{
-        width: 100%;
-        height: 130%;
-    }
-    .banner::before{
-        width: 100%;
-        height: 130%;
-    
-    }
-    .banner:after{
-        width: 100%;
-        height: 130%;
-    }
-    .banner-top{
-        font-size: 10px;
-        height: 2rem;
-        width: 100%;
-    }
-    .banner-topright{
-        padding-left: 10px;
-    }
-    .banner-topleft{
-        margin-right: 10px;
-        float: right;
-    }
-    .bannertop_link{
-        padding-left: 10px;
-    }
-    .nav-heading1{
-        width: 100%;
-        top: 10px;
-    }
-    .heading1{
-        font-size: 50px;
-        font-weight: 500;
-    }
-    .nav-hcontent{
-        font-size: 15px !important;
-        padding-bottom: 20px;
-    }
-    .btn-banner-search{
-        margin: 10px 0;
-        width: 350px;
-        height: 50px;
-        border-radius: 3px;
-        margin-left: 20px;
-        padding-left: 20px;
-    }
-    .btn-nav-srch{
-        margin-top: 20px;
-        width: 200px;
-        height: 50px;
-    }
-    .row.nav-bottom{
-        margin-left: 20%;
-        padding-top: 50px;
-    }
-    .banner-list{
-        margin-right: 10px;
-        width: 60px;
-        padding: 8px;
-        font-size: 13px;
-    }
-    .card-section{
-        height: 170%;
-        width: 100%;
-    }
-    .cardheader-content{
-        padding-top: 50px;
-        padding-bottom: 50px;
-        text-align: center;
-    }
-    .hseperator-holder{
-        padding-left: 30% ;
-        padding-bottom: 5px;
-    }
-    .cardheader-text p{
-        padding-left: 50px;
-        padding-right: 50px;
-    }
-    .cardrow.row{ 
-        margin: 0 100px;
-    }
-    .cardheader{
-        font-size: 40px;
-    }
-    .card-img-top{
         height: 200px;
     }
-    .card-img-overlay {
-        top: 78% !important;
-        height: 20px;
-        width: 90%;
-        margin-left: 15px;
-    }
-    .sect-2{
-        width: 100%;
-        height: 100%;
-    }
-    .sect-2::before{
-        width: 100%;
-        height: 100%;
-    }
-    .sect-2-row{
-        padding: 20px;
-    }
-    .row.sect-2-cont{
-        margin-top: 5px;
-    }
-    .sect-2-toptext {
-        margin-left: 30px;
-        padding-bottom: 5px;
-    } 
-    .disc-sect{
-        width: 100%;
-        height: 100%;
-        padding-top: 50px;
-    }
-    .disc-headertext p{
-        padding-left: 100px;
-        padding-right: 100px;
-    }
-    .client{
-        width: 100%;
-        height: 250%;
-    }
-    .client::before{
-        width: 100%;
-        height: 250%;
-    }
-    .client-row{
-        padding-top: 70px;
-    }
-    .client-headertext p {
-        padding-left: 250px;
-        padding-right: 250px;
-    }
-    .client-cont{
-        margin-left: 50px;
-    }
-    .client_p{
-        padding-right: 50px;
-    }
-    .carousel-cont.row{
-        padding-top: 50px;
-    }
-    .off-sect{
-        width: 100%;
-        height: 70%;
-    }
-    .off-sect::before{
-        width: 100%;
-        height: 70%;
-    }
-    .off-header{
-        padding-top: 10px;
-    }
-    .off-cont{
-        margin: 0 5px;
-        padding-top: 2%;
-        padding-left: 10%;
-        padding-right: 10%;
-    }
-    .btn-off-srch{
-        width: 100px;
-        height: 40px;
-    }
-    .off-sect-2{
-        height: 100%;
-        padding-top: 50px;
-        padding-left: 50px;
-        padding-right: 50px;
-    }
-    .expr-sect{
-        width: 100%;
-        height: 220%;
-        padding-top: 50px;
-    }
-    .expr-headertext p{
-        padding-left: 50px;
-        padding-right: 50px;
-    }
-    .expr-content{
-        padding-left: 20%;
-    }
-    .expr-sect p{
-        font-weight: 200;
-    }
-    .expr-content img{
-        width: 250px;
-        height: 150px;
-    }
-    .expr-p{
-        padding-right: 100px;
-    }
     .footer-sect{
         width: 100%;
-        height: 50%;
+        height: 35%;;
     }
     .footer-sect::before{
-        width: 100%;
-        height: 50%;    
-    }
-    .footer-row{
-        padding-top: 100px;
-    }
-    .col-md-3{
-        margin-top: 20px;
-    }
-    .footerbottom{
-        width: 100%;
-        height: 30%;
-        margin-top: 60px;
-    }
-    .footerbottom p{
-        padding-top: 2%;
-        font-size: 11px;
-        font-weight: 200px;
-    }
-}
-
-@media(min-width:480px) and (max-width:600px){
-    .banner{
-        width: 100%;
-        height: 130%;
-    }
-    .banner::before{
-        width: 100%;
-        height: 130%;
-    }
-    .banner:after{
-        width: 100%;
-        height: 130%;
-    }
-    .banner-top{
-        font-size: 10px;
-        height: 2rem;
-        width: 100%;
-    }
-    .banner-topright{
-        padding-left: 10px;
-    }
-    .banner-topleft{
-        margin-right: 10px;
-        float: right;
-    }
-    .bannertop_link{
-        padding-left: 10px;
-    }
-    .nav-heading1{
-        width: 100%;
-        top: 10px;
-    }
-    .heading1{
-        font-size: 50px;
-        font-weight: 500;
-    }
-    .nav-hcontent{
-        font-size: 15px !important;
-        padding-bottom: 20px;
-    }
-    .btn-banner-search{
-        margin: 10px 0;
-        width: 350px;
-        height: 50px;
-        border-radius: 3px;
-        margin-left: 20px;
-        padding-left: 20px;
-    }
-    .btn-nav-srch{
-        margin-top: 20px;
-        width: 200px;
-        height: 50px;
-    }
-    .row.nav-bottom{
-        margin-left: 10%;
-        padding-top: 50px;
-    }
-    .banner-list{
-        margin-right: 10px;
-        width: 60px;
-        padding: 8px;
-        font-size: 13px;
-    }
-    .card-section{
-        height: 150%;
-        width: 100%;
-    }
-    .cardheader-content{
-        padding-top: 50px;
-        padding-bottom: 50px;
-        text-align: center;
-    }
-    .hseperator-holder{
-        padding-left: 30% ;
-        padding-bottom: 5px;
-    }
-    .cardheader-text p{
-        padding-left: 50px;
-        padding-right: 50px;
-    }
-    .cardrow.row{ 
-        margin: 0 50px;
-    }
-    .cardheader{
-        font-size: 40px;
-    }
-    .card-img-top{
-        height: 200px;
-    }
-    .card-img-overlay {
-        top: 78% !important;
-        height: 20px;
-        width: 92%;
-        margin-left: 15px;
-    }
-    .sect-2{
-        width: 100%;
-        height: 100%;
-    }
-    .sect-2::before{
-        width: 100%;
-        height: 100%;
-    }
-    .sect-2-row{
-        padding: 20px;
-    }
-    .row.sect-2-cont{
-        margin-top: 50px;
-    }
-    .sect-2-toptext {
-        margin-left: 30px;
-        padding-bottom: 5px;
-    } 
-    .disc-sect{
-        width: 100%;
-        height: 90%;
-        padding-top: 50px;
-    }
-    .disc-headertext p{
-        padding-left: 100px;
-        padding-right: 100px;
-    }
-    .client{
-        width: 100%;
-        height: 250%;
-    }
-    .client::before{
-        width: 100%;
-        height: 250%;
-    }
-    .client-row{
-        padding-top: 70px;
-    }
-    .client-headertext p {
-        padding-left: 250px;
-        padding-right: 250px;
-    }
-    .client-cont{
-        margin-left: 50px;
-    }
-    .client_p{
-        padding-right: 50px;
-    }
-    .carousel-cont.row{
-        padding-top: 50px;
-    }
-    .off-sect{
-        width: 100%;
-        height: 60%;
-    }
-    .off-sect::before{
-        width: 100%;
-        height: 60%;
-    }
-    .off-header{
-        padding-top: 10px;
-    }
-    .off-cont{
-        margin: 0 5px;
-        padding-top: 2%;
-        padding-left: 10%;
-        padding-right: 10%;
-    }
-    .btn-off-srch{
-        width: 100px;
-        height: 40px;
-    }
-    .off-sect-2{
-        height: 100%;
-        padding-top: 50px;
-        padding-left: 50px;
-        padding-right: 50px;
-    }
-    .expr-sect{
-        width: 100%;
-        height: 230%;
-        padding-top: 50px;
-    }
-    .expr-headertext p{
-        padding-left: 50px;
-        padding-right: 50px;
-    }
-    .expr-content{
-        padding-left: 20%;
-    }
-    .expr-sect p{
-        font-weight: 200;
-    }
-    .expr-content img{
-        width: 250px;
-        height: 150px;
-    }
-    .expr-p{
-        padding-right: 100px;
-    }
-    .footer-sect{
         width: 100%;
         height: 35%;
     }
-    .footer-sect::before{
-        width: 100%;
-        height: 35%;    
-    }
-    .footer-row{
-        padding-top: 50px;
-    }
-    .col-md-3{
-        margin-top: 20px;
-    }
-    .footerbottom{
-        width: 100%;
-        height: 30%;
-        margin-top: 50px;
-    }
-    .footerbottom p{
-        padding-top: 3%;
-        font-size: 11px;
-        font-weight: 200px;
-    }
-}
-
-@media(min-width:300px) and (max-width:479px){
-    .banner{
-        width: 100%;
-        height: 150%;
-    }
-    .banner::before{
-        width: 100%;
-        height: 150%;
-    }
-    .banner:after{
-        width: 100%;
-        height:150%;
-    }
-    .banner-top{
-        font-size: 10px;
-        height: 2rem;
-        width: 100%;
-        padding-top: 1%;
-    }
-    .banner-topright{
-        padding-left: 5px;
-    }
-    .banner-topleft{
-        margin-right: 5px;
-        float: right;
-    }
-    .bannertop_link{
-        padding-left: 1px;
-    }
-    .nav-margin{
-        letter-spacing: 0.15rem;
-        margin-right: 20px;
-        margin-left: 20px;
-    }
-    .nav-heading1{
-        position: relative;
-        width: 100%;
-        top: 10px;
-        text-align: center;
-    }
-    .heading1{
-        font-size: 50px;
-        font-weight: 500;
-    }
-    .nav-hcontent{
-        font-size: 15px !important;
-        padding-bottom: 20px;
-    }
-    .btn-banner-search{
-        margin: 10px 0;
-        width: 200px;
-        height: 50px;
-        border-radius: 3px;
-        margin-left: 20px;
-        padding-left: 20px;
-    }
-    .btn-nav-srch{
-        margin-top: 20px;
-        width: 150px;
-        height: 50px;
-    }
-    .row.nav-bottom{
-        width: 100%;
-        padding-top: 20px;
-        margin-left: 5%;
-    }
-    .banner-list{
-        width: 50px;
-        padding: 8px;
-        font-size: 11px;
-    }
-    .card-section{
-        height: 170%;
-        width: 100%;
-    }
-    .cardheader-content{
-        padding-top: 50px;
-        padding-bottom: 10px;
-        text-align: center;
-    }
-    .hseperator-holder{
-        padding-left: 20% ;
-        padding-bottom: 5px;
-    }
-    .cardrow.row{ 
-        margin: 0 30px;
-    }
-    .cardheader{
-        font-size: 20px;
-        text-align: center;
-    }
-    .cardheader-text p{
-        padding-left:10%;
-        padding-right: 50px;
-    }
-    .card-img-top{
-        height: 200px;
-    }
-    .card-img-overlay {
-        top: 78% !important;
-        height: 20px;
-        width: 90%;
-        margin-left: 15px;
-    }
-    .sect-2{
-        width: 100%;
-        height: 150%;
-    }
-    .sect-2::before{
-        content: "";
-        width: 100%;
-        height: 150%;
-    }
-    .sect-2-row{
-        padding: 20px;
-    }
-    .row.sect-2-cont{
-        margin-top: 10px;
-    }
-    .sect-headertext p {
-        padding-left: 150px;
-        padding-right: 150px;
-    }
-    .sect-2-toptext {
-        margin-left: 30px;
-        padding-bottom: 10px;
-    } 
-    .disc-sect{
-        width: 100%;
-        height: 100%;
-        padding-top: 50px;
-    }
-    .disc-headertext p{
-        padding-left: 20px;
-        padding-right: 20px;
-    }
-    .client{
-        width: 100%;
-        height: 300%;
-       
-    }
-    .client::before{
-        width: 100%;
-        height: 300%;
-    }
-
-    .client-row{
-        padding-top: 50px;
-    }
-    .client-headertext p {
-        padding-left: 50px;
-        padding-right: 50px;
-        text-align: center;
-    }
-    .client-cont{
-        margin-left: 50px;
-    }
-    .carousel-indicators {
-        top: 100%;
-        margin-left: 0% !important;
-    }
-    .carousel-cont.row{
-        padding-top: 50px;
-    }
-    .off-sect{
-        width: 100%;
-        height: 100%;
-    }
-    .off-sect::before{
-        width: 100%;
-        height: 100%;
-    }
-    .off-header{
-        padding-top: 50px;
-    }
-    .off-cont{
-        margin: 0 5px;
-        padding-top: 3%;
-        padding-left: 2%;
-        padding-right: 2%;
-    }
-    .btn-off-srch{
-        width: 100px;
-        height: 40px;
-    }
-    .off-sect-2{
-        height: 100%;
-        padding-top: 50px;
-        padding-left: 20px;
-        padding-right: 20px;
-    }
-    .expr-sect{
-        width: 100%;
-        height: 280%;
-        padding-top: 100px;
-    }
-    .expr-headertext p{
-        padding-left: 50px;
-        padding-right: 50px;
-    }
-    .expr-content{
-        padding-left: 50px;
-    }
-    .expr-content img{
-        width: 250px;
-        height: 150px;
-    }
-    .expr-sect p{
-        font-weight: 200;
-    }
-    .expr-p{
-        padding-right: 30px;
-    }
-    .footer-sect{
-        width: 100%;
-        height: 50%;
-    }
-    .footer-sect::before{
-        width: 100%;
-        height: 50%;    
-    }
     .footer-row{
         padding-top: 70px;
     }
-    .col-md-3{
-        margin-top: 20px;
+    .footer-search.form{
+        padding-left: 20px;
+        width: 300px;
+        height: 50px;;
     }
     .footerbottom{
         width: 100%;
         height: 30%;
-        margin-top: 90px;
+        margin-top:4% ;
     }
     .footerbottom p{
-        padding-top: 3%;
-        font-size: 11px;
-        font-weight: 200px;
+        padding-top: 1%;
+        font-size: 0.7rem;
+        font-weight: 13rem;
     }
-} 
+}
