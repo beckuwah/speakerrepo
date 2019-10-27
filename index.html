@@ -33,18 +33,32 @@
                     <li class="nav-item nav-margin"><a href="#" class="nav-link"> All listing</a></li>
                     <li class="nav-item nav-margin"><a href="#" class="nav-link"> Pricing</a></li>
                     <li class="nav-item nav-margin"><a href="#" class="nav-link"> Blog</a></li>
-                    <li class="nav-item nav-margin"><a href="#" type="search" class="btn btn-outline-aqua nav-search"> Sign in</a></li>
+                    <li class="nav-item nav-margin"><a href="loginSys/index.php" type="search" class="btn btn-outline-aqua nav-search"> Sign in</a></li>
                 </ul>
             </div>
         </nav>
         <div class="nav-heading1">
             <h1 class="heading1">Find the Best Speakers In Here</h1>
             <p class="nav-hcontent">All the interesting topics – from career and family, to work places,entrepreneurship, and more.</p>
-            <div class="banner-search">
+            <form action="#" method="POST" class="row col-12">
+                <div class="ban-srch">
+                    <input type="search" name="keyword" value="Keywords" id="">
+                    <select name="location" id="">
+                            <option value="locations" >All Locations</option>
+                            <option value="locations" >Lagos</option>
+                    </select>
+                    <select name="catgry" id="">
+                            <option value="catgry" >All Categories</option>
+                            <option value="" ></option>
+                    </select>                
+                </div>
+            </form>
+            
+            <!-- <div class="banner-search">
                 <button type="search" class="btn-banner-search">Keywords</button>
                 <button type="search" class="btn-banner-search">All Locations</button>
                 <button type="search" class="btn-banner-search">All Categories</button>
-            </div>
+            </div> -->
             <button type="search" class="btn-nav-srch"><a href="#"></a>Search speakers</a></button>
             <div class="row nav-bottom">
                 <div class="banner-list">
@@ -478,8 +492,8 @@
             </div>
         </div>
     </div>
-    <script src="js/jquery-3.3.1.min.js"></script>
     <script src="index.js"></script> 
+    <script src="js/jquery-3.3.1.min.js"></script>
     <script src="bootstrap-4.1.3-dist/js/bootstrap.js"></script> 
 
 </body>
@@ -496,7 +510,7 @@
             <div class="col-md-3">
                 <div class="footersearch">
                     <form action="###" method="get">
-                        <input class="footer-search form" type="search" placeholder= "Search" >
+                        <input class="footer-search form"  id="footsearch" type="search" placeholder= "Search" >
                     </form>
                 </div>
             </div>
