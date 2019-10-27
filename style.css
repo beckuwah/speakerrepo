@@ -497,7 +497,6 @@ select{
     }
     .nav-hcontent{
         font-size: 1rem !important;
-
     }
     .nav_form{
         margin-top: 0;
@@ -583,6 +582,17 @@ select{
     }
 }
 @media (min-width:450px) and (max-width: 549px){
+    .nav-heading1{
+        top: 10px;
+        text-align: center;
+    }
+    .heading1{
+        font-size: 3rem;
+        font-weight: 400;
+    }
+    .nav-hcontent{
+        font-size: 1rem !important;
+    }
     .nav_form{
         margin-top: 10px;
         margin-bottom: 10px;
