@@ -1,0 +1,71 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+.signinTable{
+    width: 40%;
+    margin: 100px auto !important;
+    border: solid  1px rgb(25, 109, 219);
+}
+.signupTable{
+    width: 40%;
+    margin: 100px auto !important;
+    border: solid  1px rgb(187, 28, 36);
+}
+.sinheader{
+    margin: 0 auto;
+    background-color: rgb(232, 240, 247) !important;
+}
+.supheader{
+    margin: 0 auto;
+    background-color: rgb(250, 236, 236) !important;
+}
+.wrapform{
+    width: 100%;
+    text-align: center;
+    padding-top: 20px;
+}
+.session{
+    margin-bottom: 20px;
+}
+.signHeader{
+    padding-bottom: 5px;
+}
+.form-group{
+    margin: 0 auto;
+}
+.index-signup{
+    padding-bottom: 25px;
+}
+/*
+.contactnav li{
+    color: brown;
+    margin: 20px !important;
+
+}
+.contactHeader{
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 20px;
+    color:brown ;
+}
+
+.logout{
+    width: 50%;
+    margin:200px auto;
+    text-align: center;
+}
+
+ */
+ @media (max-width: 780px){
+    .signinTable{
+        width: 60%;
+        margin: 100px auto !important;
+        border: solid  1px rgb(25, 109, 219);
+    }
+    .signupTable{
+        width: 60%;
+        margin: 100px auto !important;
+        border: solid  1px rgb(187, 28, 36);
+    }
+ }
