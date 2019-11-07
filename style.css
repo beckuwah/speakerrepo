@@ -80,7 +80,7 @@ a:hover{
     position: relative;
     width: 100%;
     height: 100%;
-    top: 70px;
+    top: 50px;
     text-align: center;
     margin: 0 auto;
 }
@@ -92,6 +92,7 @@ a:hover{
     font-size: 1.1rem !important;
     padding-bottom: 20px;
 }
+<<<<<<< HEAD
 .nav_form{
     margin-top: 50px;
     margin-bottom: 50px;
@@ -115,6 +116,40 @@ select{
     border-width: 2px;
     border-style: inset;
 }
+=======
+.ban-srch{
+    margin: 0 auto;
+}
+input{
+    width: 200px;
+    height: 50px;
+    padding: 7px;
+}
+select{
+    width: 200px;
+    height: 50px;
+    padding: 7px;
+    background-color: white;
+    border-width: 2px;
+    border-style: inset;
+}
+
+/*
+.banner-search{
+    width: 100%;
+}
+ .btn-banner-search{
+    margin: 30px 0;
+    width: 300px;
+    height: 50px;
+    border: 2px solid white;
+    border-radius: 3px;
+    margin-left: 20px;
+    color:rgb(15, 204, 204);
+    text-align: left;
+    padding-left: 20px;
+} */
+>>>>>>> 4f642b3414c5335f77c0478bf16ad65e03cf4827
 .btn-nav-srch{
     margin-bottom: 20px;
     width: 200px;
@@ -441,7 +476,11 @@ select{
     border-radius: 50px 50px 50px 50px;
     font-size: 1rem;
     background: rgba(0, 0, 0, 0.1);
+<<<<<<< HEAD
     color: white !important;
+=======
+    color: white;
+>>>>>>> 4f642b3414c5335f77c0478bf16ad65e03cf4827
 }
 #footsearch{
     background: url('images/search_icon.svg.png');
@@ -461,7 +500,10 @@ select{
     padding-bottom: 1px;
 }
 .footerbottom p{
+<<<<<<< HEAD
     position: relative;
+=======
+>>>>>>> 4f642b3414c5335f77c0478bf16ad65e03cf4827
     font-size: 0.6rem;
     font-weight: 13rem;
 }
@@ -673,10 +715,13 @@ select{
         font-size: 3.5rem;
         font-weight: 500;
     }
+<<<<<<< HEAD
     .nav_form{
         margin-top: 20px;
         margin-bottom: 20px;
     }
+=======
+>>>>>>> 4f642b3414c5335f77c0478bf16ad65e03cf4827
     .row.nav-bottom{
         margin-left: 20% ;
         padding-top: 50px;
@@ -884,6 +929,7 @@ select{
     .expr-sect{
         padding: 10px;
     }
+<<<<<<< HEAD
     .expr-headertext p{
         padding-left: 250px;
         padding-right: 250px;
@@ -893,3 +939,6 @@ select{
         padding-top: 80px;
     }
 }
+=======
+}
+>>>>>>> 4f642b3414c5335f77c0478bf16ad65e03cf4827
